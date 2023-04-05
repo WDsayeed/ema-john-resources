@@ -1,9 +1,25 @@
-.cart{
-        background: rgba(255, 153, 0, 0.3);
-        padding: 20px;
-        position: sticky;
-        top: 0;
+.cart {
+  background: rgba(255, 153, 0, 0.3);
+  padding: 20px;
+  position: sticky;
+  top: 0;
 }
-.cart h2{
-        text-align: center;
+.cart h2 {
+  text-align: center;
+}
+.delete-cart {
+  margin: 16px auto;
+  width: 90%;
+  height: 48px;
+  padding: 8px;
+  background: #ff3030;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 19px;
+  line-height: 25px;
+  letter-spacing: 0.0015em;
+  color: #ffffff;
+  border: transparent;
 }
